@@ -1,0 +1,13 @@
+1. create a virtual environment
+2. install necessary libraries and packages
+
+3. make sure to have an account on huggingface
+4. create an access token - Token type: Read (This token has read-only access to all your and your orgs resources and 
+                                                    can make calls to Inference Providers on your behalf.)
+
+5. In your terminal type(make sure to have "transformers" loaded in requirements only then this "hf-cli login" works.):
+
+        huggingface-cli login > press enter > press Right click to paste copied token > press enter
+
+6. write your code, specify your model to use such as (model="facebook/bart-large-cnn")
+7. let the model download in our venv and the task to be accomplished.
